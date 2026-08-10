@@ -10,8 +10,6 @@
 <br />
 <p align="center">
   <img src="https://badge-proxy.cds.internal.unity3d.com/5ab9a162-9dd0-4ba1-ba41-cf25378a927a" alt="Perception production version" />
-  <a href="./LICENSE.md">
-    <img src="https://img.shields.io/badge/license-Apache--2.0-green.svg" alt="License Badge" />
   </a>
   <img src="https://img.shields.io/badge/unity-2021.3-green.svg?style=flat-square" alt="unity 2021.3">
   <img src="https://img.shields.io/badge/unity-2022.1-green.svg?style=flat-square" alt="unity 2022.1">
