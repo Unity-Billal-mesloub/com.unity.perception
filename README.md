@@ -39,14 +39,8 @@ Instructions for adding the Perception package to your existing project. Recomme
 **[Human Pose Labeling and Randomization Tutorial](com.unity.perception/Documentation~/HumanPose/TUTORIAL.md)**  
 Step by step instructions for using the keypoint, pose, and animation randomization tools included in the Perception package. We recommend that you complete the Perception Tutorial above before diving into this guide!
 
-**[Analyzing Datasets with Pysolotools](com.unity.perception/Documentation~/Tutorial/pysolotools.md)**  
-Introduction to Unity's [pysolotools](https://github.com/Unity-Technologies/pysolotools) - a python package for parsing, converting, and analyzing a SOLO dataset. Step by step instructions on how to parse a SOLO dataset and look at the dataset statistics in a [jupyter notebook](https://jupyter.org/).
-
 **[Visualizing a Dataset with Voxel51 Viewer](com.unity.perception/Documentation~/Tutorial/pysolotools-fiftyone.md)**  
 We will walk through using [Voxel51](https://voxel51.com/) with our [custom SOLO importer](https://github.com/Unity-Technologies/pysolotools-fiftyone) to visualize a dataset.
-
-**[Converting to COCO](com.unity.perception/Documentation~/Tutorial/convert_to_coco.md)**  
-We will use [pysolotools](https://github.com/Unity-Technologies/pysolotools) to convert a SOLO dataset into the [COCO](https://cocodataset.org/#home) format.
 
 ## Frequently Asked Questions
  
@@ -73,20 +67,20 @@ In-depth documentation on specific components of the package. For the full set o
   <img src="com.unity.perception/Documentation~/images/synthetichomes.jpg" width="800"/>
 </p>
 
-Head over to the [Synthetic Homes repository](https://github.com/Unity-Technologies/SyntheticHomes) for a 100K image dataset of annotated synthetic home interiors for the purpose of training computer vision models, as well as a configurable Unity based stand alone application for generating such datasets. 
+Head over to the [Synthetic Homes repository](https://github.com/Unity-Billal-mesloub/SyntheticHomes) for a 100K image dataset of annotated synthetic home interiors for the purpose of training computer vision models, as well as a configurable Unity based stand alone application for generating such datasets. 
 
 ### Synthetic Humans
 
 <p align="center">
-  <a href="https://github.com/Unity-Technologies/com.unity.cv.synthetichumans/"><img src="https://github.com/Unity-Technologies/com.unity.cv.synthetichumans/blob/main/Documentation~/Images/banner.png" align="center" width="800" ></a>
+  <a href="https://github.com/Unity-Billal-mesloub/com.unity.cv.synthetichumans/"><img src="https://github.com/Unity-Billal-mesloub/com.unity.cv.synthetichumans/blob/main/Documentation~/Images/banner.png" align="center" width="800" ></a>
 </p>
 
-The [Synthetic Humans](https://github.com/Unity-Technologies/com.unity.cv.synthetichumans) package gives you the ability to procedurally generate and realistically place diverse groups of synthetic humans in your Unity Computer Vision projects.
+The [Synthetic Humans](https://github.com/Unity-Billal-mesloub/com.unity.cv.synthetichumans) package gives you the ability to procedurally generate and realistically place diverse groups of synthetic humans in your Unity Computer Vision projects.
 
 ### People Sans People
 
 <p align="center">
-  <a href="https://unity-technologies.github.io/PeopleSansPeople/"><img src="https://github.com/Unity-Technologies/PeopleSansPeople/blob/main/images/demo/PSP_HDRI_slideshow%20Short%20Demo.gif" align="center" width="800" ></a>
+  <a href="https://unity-technologies.github.io/PeopleSansPeople/"><img src="https://github.com/Unity-Billal-mesloub/PeopleSansPeople/blob/main/images/demo/PSP_HDRI_slideshow%20Short%20Demo.gif" align="center" width="800" ></a>
 </p>
 
 [PeopleSansPeople](https://unity-technologies.github.io/PeopleSansPeople/) is a human-centric privacy-preserving synthetic data generator with highly parametrized domain randomization. This dataset generator contains simulation-ready 3D human assets, a parameterized lighting and camera system, and generates 2D and 3D bounding box, instance and semantic segmentation, and COCO pose labels.
@@ -96,26 +90,16 @@ The [Synthetic Humans](https://github.com/Unity-Technologies/com.unity.cv.synthe
   <img src="com.unity.perception/Documentation~/images/synthdet.png" width="800"/>
 </p>
 
-[**SynthDet**](https://github.com/Unity-Technologies/SynthDet) is an end-to-end solution for training a 2D object detection model using synthetic data.
+[**SynthDet**](https://github.com/Unity-Billal-mesloub/SynthDet) is an end-to-end solution for training a 2D object detection model using synthetic data.
 
 ### Robotics Object Pose Estimation Demo
 <p align="center">
   <img src="com.unity.perception/Documentation~/images/robotics_pose.png" width="800"/>
 </p>
 
-The [**Robotics Object Pose Estimation**](https://github.com/Unity-Technologies/Robotics-Object-Pose-Estimation) project demonstrates pick-and-place with a robot arm in Unity. It includes using ROS with Unity, importing URDF models, collecting labeled training data using the Perception package, and training and deploying a deep learning model.
+The [**Robotics Object Pose Estimation**](https://github.com/Unity-Billal-mesloub/Robotics-Object-Pose-Estimation) project demonstrates pick-and-place with a robot arm in Unity. It includes using ROS with Unity, importing URDF models, collecting labeled training data using the Perception package, and training and deploying a deep learning model.
 
 ## Community and Support
 
 This project has been discontinued and is no longer supported by Unity. Please use the Github issues page to seek community support.
 
-## License & Citation
-The Perception package is licensed under [Apache License Version 2.0](LICENSE.md).  If you find this package useful, consider citing it using:
-```
-@misc{unity-perception2022,
-    title={Unity {P}erception Package},
-    author={{Unity Technologies}},
-    howpublished={\url{https://github.com/Unity-Technologies/com.unity.perception}},
-    year={2020}
-}
-```
