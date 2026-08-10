@@ -37,9 +37,6 @@ Instructions for adding the Perception package to your existing project. Recomme
 **[Human Pose Labeling and Randomization Tutorial](com.unity.perception/Documentation~/HumanPose/TUTORIAL.md)**  
 Step by step instructions for using the keypoint, pose, and animation randomization tools included in the Perception package. We recommend that you complete the Perception Tutorial above before diving into this guide!
 
-**[Visualizing a Dataset with Voxel51 Viewer](com.unity.perception/Documentation~/Tutorial/pysolotools-fiftyone.md)**  
-We will walk through using [Voxel51](https://voxel51.com/) with our [custom SOLO importer](https://github.com/Unity-Billal-mesloub/pysolotools-fiftyone) to visualize a dataset.
-
 ## Frequently Asked Questions
  
 [Check out our FAQ](com.unity.perception/Documentation~/FAQ/FAQ.md) for a list of common questions, tips, tricks, and sample code for common code patterns.
